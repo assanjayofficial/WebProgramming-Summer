@@ -1,9 +1,9 @@
 import './App.css';
-import Regist from './Login/index'
+import Routes from './config/routes';
 function App() {
   return (
     <div>
-      <Regist/>
+      <Routes/>
     </div>
   );
 }
