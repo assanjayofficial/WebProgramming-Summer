@@ -7,6 +7,7 @@ import {
   import Login from '../../Login/index'
   import Dashboard from '../../Login/Dashboard';
   import About from '../../Login/About';
+  import InputData from '../../Login/addUsers';
 
 const Routes = () => {
     return (
@@ -20,6 +21,9 @@ const Routes = () => {
             </Route>
             <Route path="/About">
                 <About/>
+            </Route>
+            <Route path="/InputData">
+                <InputData/>
             </Route>
         </Switch>
         </Router>
